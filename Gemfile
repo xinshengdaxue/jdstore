@@ -30,13 +30,15 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 gem 'bootstrap-sass'
 gem 'devise'
- gem 'simple_form'
-  gem 'font-awesome-rails'
-
-   gem 'carrierwave'
- gem 'mini_magick'
+gem 'simple_form'
+gem 'font-awesome-rails'
+gem 'carrierwave'
+gem 'mini_magick'
 gem 'letter_opener', group: :development
- gem 'aasm'
+gem 'aasm'
+gem 'figaro'
+gem 'carrierwave-qiniu'
+gem 'qiniu-rs'
 
 
 group :development, :test do
